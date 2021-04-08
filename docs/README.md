@@ -2,6 +2,11 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+## Prerequisites
+
+* nodejs 14.x (Current LTS version)
+* yarn v1 (e.g. v1.22.5)
+
 ## Installation
 
 ```console
