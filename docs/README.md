@@ -29,6 +29,15 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Run in docker
+
+To use the above commands with docker use the helper script in `bin`, i.e.
+
+```console
+./bin/docker.sh yarn install
+./bin/docker.sh yarn start
+```
+
 ## Deployment
 
 ```console
