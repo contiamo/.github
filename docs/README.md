@@ -23,7 +23,7 @@ This command starts a local development server and open up a browser window. Mos
 ## Build
 
 ```console
-npm run-script build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -33,8 +33,8 @@ This command generates static content into the `build` directory and can be serv
 To use the above commands with docker use the helper script in `bin`, i.e.
 
 ```console
-./bin/docker.sh yarn install
-./bin/docker.sh yarn start
+./bin/docker.sh npm install
+./bin/docker.sh npm start
 ```
 
 ## Deployment
