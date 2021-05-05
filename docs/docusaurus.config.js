@@ -1,32 +1,41 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Contiamo Documentation',
-  tagline: 'Documentation for the Contiamo data portal',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  tagline: 'Contiamo Documentation Hub',
+  url: 'https://contiamo.github.io',
+  baseUrl: '/contiamo/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'contiamo', // Usually your GitHub org/user name.
-  projectName: 'contiamo', // Usually your repo name.
+  projectName: 'contiamo', // Usually your repo name.  
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Contiamo',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Contiamo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'docs',
+          label: 'REST API',
+          position: 'left',
+        },
+        {
+          to: 'whats-new', 
+          label: 'What\'s new', 
+          position: 'left'
+        },
+        {
+          href: 'https://contiamo.com',
+          label: 'contiamo.com',
           position: 'right',
         },
       ],
@@ -42,39 +51,9 @@ module.exports = {
               to: 'docs/',
             },
           ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        },        
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Contiamo. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Contiamo`,
     },
   },
   presets: [
@@ -88,15 +67,40 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
-          showReadingTime: true,
+          /**
+          * Path to data on filesystem relative to site dir.
+          */
+          path: 'releases',
+          /**
+          * Blog page title for better SEO
+          */
+          blogTitle: 'Contiamo release notes',
+          /**
+           * Blog page meta description for better SEO
+           */
+          blogDescription: 'Releases of the Contiamo platform',
+          /**
+           * Number of blog post elements to show in the blog sidebar
+           * 'ALL' to show all blog posts
+           * 0 to disable
+           */
+          blogSidebarCount: 'ALL',
+          /**
+           * Title of the blog sidebar
+           */
+          blogSidebarTitle: 'Releases',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'whats-new',
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          showReadingTime: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
-    ],
+    ]
   ],
 };
