@@ -1,1 +1,0 @@
-(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[279],{9975:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/contiamo/whats-new","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Releases of the Contiamo platform","blogTitle":"Contiamo release notes"}')}}]);
