@@ -30,7 +30,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'whats-new', 
+          to: 'whats-new/',
           label: 'What\'s new', 
           position: 'left'
         },

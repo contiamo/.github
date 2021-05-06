@@ -1,46 +1,23 @@
-# Website
+# Documentation Hub
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-## Prerequisites
+## Development
 
-* nodejs 14.x (Current LTS version)
+| What?         |               |
+| ------------- | ------------- |
+| Prerequisites | nodejs 14.x (Current LTS version) |
+| Installation | `npm install` |
+| Local Development | `npm start` |
+| Build | `npm run build` |
+| Run in docker | `./bin/docker.sh npm install` and `./bin/docker.sh npm start` |
+| Deploy to gh-pages | `GIT_USER=<Your GitHub username> USE_SSH=true npm run deploy` |
 
-## Installation
+# Adding content
 
-```console
-npm install
-```
+Docs (this is usually what you want to add): https://docusaurus.io/docs/docs-introduction
 
-## Local Development
+Pages (special): https://docusaurus.io/docs/creating-pages
 
-```console
-npm start
-```
+Releases: Add a new release to the `releases` folder
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Run in docker
-
-To use the above commands with docker use the helper script in `bin`, i.e.
-
-```console
-./bin/docker.sh npm install
-./bin/docker.sh npm start
-```
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true npm run deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
