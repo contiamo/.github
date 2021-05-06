@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Contiamo Documentation Blog</title>
+        <link>https://contiamo.github.io/whats-new</link>
+        <description>Contiamo Documentation Blog</description>
+        <lastBuildDate>Tue, 01 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[2021.6]]></title>
+            <link>https://contiamo.github.io/contiamo/whats-new/2021.6</link>
+            <guid>2021.6</guid>
+            <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Brief summary of what was added ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2021.5]]></title>
+            <link>https://contiamo.github.io/contiamo/whats-new/2021.5</link>
+            <guid>2021.5</guid>
+            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Brief summary of what was added ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2021.4]]></title>
+            <link>https://contiamo.github.io/contiamo/whats-new/2021.4</link>
+            <guid>2021.4</guid>
+            <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Brief summary of what was added ...]]></description>
+        </item>
+    </channel>
+</rss>

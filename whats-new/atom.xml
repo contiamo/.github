@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://contiamo.github.io/whats-new</id>
+    <title>Contiamo Documentation Blog</title>
+    <updated>2021-06-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://contiamo.github.io/whats-new"/>
+    <subtitle>Contiamo Documentation Blog</subtitle>
+    <icon>https://contiamo.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2021.6]]></title>
+        <id>2021.6</id>
+        <link href="https://contiamo.github.io/contiamo/whats-new/2021.6"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brief summary of what was added ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021.5]]></title>
+        <id>2021.5</id>
+        <link href="https://contiamo.github.io/contiamo/whats-new/2021.5"/>
+        <updated>2021-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brief summary of what was added ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021.4]]></title>
+        <id>2021.4</id>
+        <link href="https://contiamo.github.io/contiamo/whats-new/2021.4"/>
+        <updated>2021-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brief summary of what was added ...]]></summary>
+    </entry>
+</feed>

@@ -1,0 +1,1 @@
+(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[244],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Releases","items":[{"title":"2021.6","permalink":"/contiamo/whats-new/2021.6"},{"title":"2021.5","permalink":"/contiamo/whats-new/2021.5"},{"title":"2021.4","permalink":"/contiamo/whats-new/2021.4"}]}')}}]);
