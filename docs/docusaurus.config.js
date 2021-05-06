@@ -1,5 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  noIndex: true,
   title: 'Contiamo Documentation',
   tagline: 'Contiamo Documentation Hub',
   url: 'https://contiamo.github.io',
