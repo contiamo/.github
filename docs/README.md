@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+The page is currently deployed here: https://contiamo.github.io/contiamo/
+
 ## Development
 
 | What?         |               |
