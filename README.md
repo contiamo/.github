@@ -1,7 +1,28 @@
-# Contiamo
+### 🤝 Let's work together:
 
-This repo is meant to become a central public repository for Contiamo. Most issues users encounter should be filed here.
+Need some help?
 
-Currently it only contains the docs in the `/docs` folder.
+We specialize in
 
-We might eventually add sync tools, a current api spec and more here.
+- Data engineering and analysis
+- Machine learning
+- GDPR consulting
+- and distributed systems in general.
+
+Contact us at [📬 Contiamo](mailto:info@contiamo.com).
+
+<!--
+**contiamo/contiamo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+https://unicode.org/emoji/charts/full-emoji-list.html
+-->
