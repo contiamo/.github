@@ -1,12 +1,16 @@
+Contiamo works with with leading companies like Mercedes Benz, CBRE or Deutsche Telekom to solve their business challenges through intelligent data usage. As a trusted partner we provide high-quality data solutions combined with deep business know-how.
+
+We are an interdisciplinary, senior team that combines extensive experience in business consulting, data science, data engineering, mathematics, and change management.
+
+We love to find elegant solutions for complex challenges every day. Our focus is on scalable cloud applications and the intensive use of open source tools.
+
 ### 🤝 Let's work together:
 
-Need some help?
-
-We specialize in
+Need some help? We specialize in
 
 - Data engineering and analysis
 - Machine learning
-- GDPR consulting
+- data intensive applications
 - and distributed systems in general.
 
 Contact us at [📬 Contiamo](mailto:info@contiamo.com).
